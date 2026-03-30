@@ -1,0 +1,155 @@
+[
+  {
+    "id": 1,
+    "name": "Notion AI Pro",
+    "description": "The ultimate AI-powered workspace for teams and individuals. Write, plan, and automate with advanced AI.",
+    "price": 10,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "Unlimited AI responses",
+      "100+ AI templates",
+      "Database automation",
+      "Team collaboration",
+      "Advanced analytics"
+    ],
+    "icon": "🧠"
+  },
+  {
+    "id": 2,
+    "name": "Midjourney Unlimited",
+    "description": "Create stunning AI art and images with the most advanced image generation model available.",
+    "price": 29,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "Unlimited generations",
+      "4K upscaling",
+      "Style reference",
+      "Commercial license",
+      "Priority rendering"
+    ],
+    "icon": "🎨"
+  },
+  {
+    "id": 3,
+    "name": "Cursor Pro",
+    "description": "The AI-first code editor that helps you build software faster than ever before.",
+    "price": 20,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "AI code generation",
+      "Chat with your codebase",
+      "Multi-file editing",
+      "Debug assistance",
+      "VS Code compatible"
+    ],
+    "icon": "💻"
+  },
+  {
+    "id": 4,
+    "name": "Perplexity Pro",
+    "description": "AI-powered search engine with real-time web access and unlimited Pro searches.",
+    "price": 20,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "Unlimited Pro searches",
+      "File & image analysis",
+      "Real-time web access",
+      "Voice mode",
+      "API access"
+    ],
+    "icon": "🔍"
+  },
+  {
+    "id": 5,
+    "name": "Arc Max",
+    "description": "The most intelligent web browser with built-in AI assistant and powerful productivity features.",
+    "price": 15,
+    "period": "monthly",
+    "tag": "",
+    "tagType": "",
+    "features": [
+      "AI command bar",
+      "Space organization",
+      "Split view",
+      "Easels & notes",
+      "Focus mode"
+    ],
+    "icon": "🌐"
+  },
+  {
+    "id": 6,
+    "name": "Framer AI",
+    "description": "Build beautiful, responsive websites with AI in seconds. No coding required.",
+    "price": 12,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "AI website generation",
+      "Advanced animations",
+      "CMS integration",
+      "Custom code",
+      "Hosting included"
+    ],
+    "icon": "🌟"
+  },
+  {
+    "id": 7,
+    "name": "Gamma AI",
+    "description": "Create stunning presentations, documents, and webpages with AI in minutes.",
+    "price": 8,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "AI presentation builder",
+      "Beautiful themes",
+      "Real-time collaboration",
+      "Export to PDF/PPT",
+      "Analytics"
+    ],
+    "icon": "📊"
+  },
+  {
+    "id": 8,
+    "name": "Runway Gen-3",
+    "description": "Industry-leading AI video generation tool for creators and filmmakers.",
+    "price": 76,
+    "period": "monthly",
+    "tag": "",
+    "tagType": "",
+    "features": [
+      "Text to video",
+      "Image to video",
+      "Advanced motion control",
+      "4K export",
+      "Commercial rights"
+    ],
+    "icon": "🎥"
+  },
+  {
+    "id": 9,
+    "name": "ElevenLabs Prime",
+    "description": "The most realistic AI voice generation platform with emotion and multilingual support.",
+    "price": 99,
+    "period": "yearly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "Ultra-realistic voices",
+      "Emotion control",
+      "Voice cloning",
+      "Multilingual support",
+      "Studio quality"
+    ],
+    "icon": "🎤"
+  }
+]
