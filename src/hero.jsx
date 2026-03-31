@@ -1,6 +1,6 @@
 export default function Hero(){
   return(
-    <div className="container mx-auto">
+    <div className="container mx-auto min-h-screen">
       <div className="flex justify-between items-center py-21.25">
         <div>
           <div className="flex items-center gap-2 bg-[#E1E7FF] px-4 py-2 rounded-full w-fit mb-4">
@@ -19,7 +19,7 @@ export default function Hero(){
           </div>
         </div>
         <div>
-          <img src="./banner.png" alt="" />
+          <img className="hover:-translate-y-3 transition" src="./banner.png" alt="" />
         </div>
       </div>
     </div>
