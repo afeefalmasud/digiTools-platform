@@ -11,11 +11,10 @@ export default function Navbar({carts}){
               <ul
                 tabindex="-1"
                 class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow font-semibold text-[#101727]">
-                <li className="hover:text-[#9514FA]"><a href="#">Products</a></li>
-                <li className="hover:text-[#9514FA]"><a href="#">Features</a></li>
-                <li className="hover:text-[#9514FA]"><a href="#">Pricing</a></li>
-                <li className="hover:text-[#9514FA]"><a href="#">Testimonials</a></li>
-                <li className="hover:text-[#9514FA]"><a href="#">FAQ</a></li>
+                <li className="hover:text-[#9514FA]"><a href="#product-section">Products</a></li>
+                <li className="hover:text-[#9514FA]"><a href="#start-section">How It Works</a></li>
+                <li className="hover:text-[#9514FA]"><a href="#pricing-section">Pricing</a></li>
+                <li className="hover:text-[#9514FA]"><a href="#testimonial-section">Testimonials</a></li>
               </ul>
             </div>
             <h1 className="text-4xl font-extrabold bg-linear-65 from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent">DigiTools</h1>
@@ -24,7 +23,7 @@ export default function Navbar({carts}){
           <div className="navbar-center hidden lg:flex">
             <ul className="text-[#101727] flex font-semibold items-center gap-8">
               <li className="hover:text-[#9514FA]"><a href="#product-section">Products</a></li>
-              <li className="hover:text-[#9514FA]"><a href="#start-section">Features</a></li>
+              <li className="hover:text-[#9514FA]"><a href="#start-section">How It Works</a></li>
               <li className="hover:text-[#9514FA]"><a href="#pricing-section">Pricing</a></li>
               <li className="hover:text-[#9514FA]"><a href="#testimonial-section">Testimonials</a></li>
             </ul>

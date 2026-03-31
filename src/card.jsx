@@ -13,11 +13,25 @@ export default function Card({card,carts, setCarts}){
     setCarts([...carts,card]);
     toast.success('Item added on the cart')
   }
+  let color = '';
+  let bg = '';
+  if (card.tag === 'popular') {
+    color = 'text-purple-600';
+    bg = 'bg-[#E1E7FF]';
+  } else if (card.tag === 'new') {
+    color = 'text-green-600';
+    bg = 'bg-green-100';
+  } else if (card.tag === 'best seller') {
+    color = 'text-orange-600';
+    bg = 'bg-orange-100';
+  }
   return(
     <div>
       <div className="p-6 shadow-md bg-[#ffffff] rounded-lg border-2 border-[#F1F1F1] flex flex-col">
         <div className="flex justify-end mb-7">
-          <p className="text-[#0A883E] font-bold text-[14px]">{card.tag}</p>
+          <div className={`${color} ${bg} w-fit px-5 py-2 rounded-full`}>
+            <p className='font-bold text-[14px] uppercase'>{card.tag}</p>
+          </div>
         </div>
         <div>
           <p className="text-3xl mb-4">{card.icon}</p>
