@@ -4,6 +4,7 @@ import Hero from './hero'
 import Info from './info'
 import Start from './start'
 import Pricing from './pricing'
+import Testimonial from './testimonial'
 
 function App() {
   
@@ -18,6 +19,9 @@ function App() {
       </div>
       <div id='pricing-section'>
         <Pricing></Pricing>
+      </div>
+      <div id='testimonial-section'>
+        <Testimonial></Testimonial>
       </div>
       
     </>

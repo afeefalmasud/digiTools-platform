@@ -26,7 +26,7 @@ export default function Navbar(){
               <li className="hover:text-[#9514FA]"><a href="#start-section">Products</a></li>
               <li className="hover:text-[#9514FA]"><a href="#">Features</a></li>
               <li className="hover:text-[#9514FA]"><a href="#pricing-section">Pricing</a></li>
-              <li className="hover:text-[#9514FA]"><a href="#">Testimonials</a></li>
+              <li className="hover:text-[#9514FA]"><a href="#testimonial-section">Testimonials</a></li>
               <li className="hover:text-[#9514FA]"><a href="#">FAQ</a></li>
             </ul>
           </div>
