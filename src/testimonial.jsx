@@ -1,9 +1,9 @@
 export default function Testimonial(){
   return(
-    <div className="bg-linear-65 from-[#4F39F6] to-[#9514FA]">
+    <div className="bg-linear-65 from-[#4F39F6] to-[#9514FA] px-5 md:px-0">
       <div className="container mx-auto">
         <div className="text-[#ffffff] py-30 flex flex-col items-center text-center">
-          <h1 className="font-extrabold text-[40px] mb-4">Ready to Transform Your Workflow?</h1>
+          <h1 className="font-extrabold text-[35px] md:text-[40px] mb-4">Ready to Transform Your Workflow?</h1>
           <p className="text-[#ffffffcf] mb-10">Join thousands of professionals who are already using Digitools to work smarter.<br></br>Start your free trial today.</p>
           <div className="flex gap-4">
             <div className="bg-white rounded-full flex items-center justify-center">

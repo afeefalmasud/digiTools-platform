@@ -1,12 +1,12 @@
 export default function Start(){
   return(
     <div className="min-h-screen bg-[#F9FAFC]">
-      <div className="container mx-auto pt-30">
+      <div className="container mx-auto pt-30 px-5 md:px-0">
         <div className="text-center mb-10">
-          <h1 className="text-[#101727] font-extrabold text-[48px] mb-4">Get Started in 3 Steps</h1>
+          <h1 className="text-[#101727] font-extrabold text-[42px] md:text-[48px] mb-4">Get Started in 3 Steps</h1>
           <p className="text-[#627382]">Start using premium digital tools in minutes, not hours.</p>
         </div>
-        <div className="flex flex-col md:flex-row gap-x-10 justify-center">
+        <div className="flex flex-col md:flex-row gap-x-10 gap-y-10 md:gap-y-0 justify-center">
           <div className="py-5 px-8 flex flex-col shadow-md bg-[#ffffff] rounded-lg border-2 border-[#F1F1F1]">
             <div className="flex justify-end mb-7">
               <div className="bg-linear-65 from-[#4F39F6] to-[#9514FA] px-4 py-3 w-fit rounded-full">

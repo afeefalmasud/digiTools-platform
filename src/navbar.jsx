@@ -2,9 +2,9 @@ export default function Navbar({carts}){
   return(
     <div className="shadow-lg sticky top-0 z-50 bg-white">
       <div className="container mx-auto py-6.5">
-        <div className="flex justify-between items-center">
-          <div class="navbar-start">
-            <div class="dropdown">
+        <div className="flex flex-col md:flex-row justify-center md:justify-between items-center">
+          <div class="navbar-start mb-5 md:mb-0">
+            <div class="dropdown mr-4">
               <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /> </svg>
               </div>
@@ -29,7 +29,7 @@ export default function Navbar({carts}){
               <li className="hover:text-[#9514FA]"><a href="#testimonial-section">Testimonials</a></li>
             </ul>
           </div>
-          <div className="flex gap-4 items-center navbar-end">
+          <div className="flex gap-4 justify-center md:justify-end items-center navbar-end">
             <div className="relative">
               <span className="material-symbols-outlined">shopping_cart</span>
               <div className="w-5 h-5 rounded-full text-[#ffffff] bg-[#FF3980] text-center absolute -top-3 -right-2">
