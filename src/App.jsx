@@ -5,6 +5,7 @@ import Info from './info'
 import Start from './start'
 import Pricing from './pricing'
 import Testimonial from './testimonial'
+import Footer from './footer'
 
 function App() {
   
@@ -23,6 +24,7 @@ function App() {
       <div id='testimonial-section'>
         <Testimonial></Testimonial>
       </div>
+      <Footer></Footer>
       
     </>
   )

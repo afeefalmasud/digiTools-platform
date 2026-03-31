@@ -23,11 +23,10 @@ export default function Navbar(){
           
           <div className="navbar-center hidden lg:flex">
             <ul className="text-[#101727] flex font-semibold items-center gap-8">
-              <li className="hover:text-[#9514FA]"><a href="#start-section">Products</a></li>
-              <li className="hover:text-[#9514FA]"><a href="#">Features</a></li>
+              <li className="hover:text-[#9514FA]"><a href="#">Products</a></li>
+              <li className="hover:text-[#9514FA]"><a href="#start-section">Features</a></li>
               <li className="hover:text-[#9514FA]"><a href="#pricing-section">Pricing</a></li>
               <li className="hover:text-[#9514FA]"><a href="#testimonial-section">Testimonials</a></li>
-              <li className="hover:text-[#9514FA]"><a href="#">FAQ</a></li>
             </ul>
           </div>
           <div className="flex gap-4 items-center navbar-end">
