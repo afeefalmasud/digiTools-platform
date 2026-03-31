@@ -1,4 +1,4 @@
-export default function Navbar(){
+export default function Navbar({carts}){
   return(
     <div className="shadow-lg sticky top-0 z-50 bg-white">
       <div className="container mx-auto py-6.5">
@@ -23,14 +23,19 @@ export default function Navbar(){
           
           <div className="navbar-center hidden lg:flex">
             <ul className="text-[#101727] flex font-semibold items-center gap-8">
-              <li className="hover:text-[#9514FA]"><a href="#">Products</a></li>
+              <li className="hover:text-[#9514FA]"><a href="#product-section">Products</a></li>
               <li className="hover:text-[#9514FA]"><a href="#start-section">Features</a></li>
               <li className="hover:text-[#9514FA]"><a href="#pricing-section">Pricing</a></li>
               <li className="hover:text-[#9514FA]"><a href="#testimonial-section">Testimonials</a></li>
             </ul>
           </div>
           <div className="flex gap-4 items-center navbar-end">
-            <span className="material-symbols-outlined">shopping_cart</span>
+            <div className="relative">
+              <span className="material-symbols-outlined">shopping_cart</span>
+              <div className="w-5 h-5 rounded-full text-[#ffffff] bg-[#FF3980] text-center absolute -top-3 -right-2">
+                <p className="text-[14px]">{carts.length}</p>
+              </div>
+            </div>
             <a href="" className="text-[#101727] font-semibold hover:text-[#9514FA]">Login</a>
             <button className="btn bg-linear-65 from-[#4F39F6] to-[#9514FA] px-4 py-3.5 rounded-full border-none text-white font-semibold">Get Started</button>
           </div>

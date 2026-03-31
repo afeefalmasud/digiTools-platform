@@ -38,13 +38,13 @@ export default function Footer(){
             <h2 className="text-[20px] font-medium">Social Links</h2>
             <div className="flex gap-2">
               <div className="px-2.5 py-2 w-fit rounded-full bg-[#ffffff] cursor-pointer">
-                <i class="fa-brands fa-instagram text-[#101727]"></i>
+                <i className="fa-brands fa-instagram text-[#101727]"></i>
               </div>
               <div className="px-2.5 py-2 w-fit rounded-full bg-[#ffffff] cursor-pointer">
-                <i class="fa-brands fa-facebook-f text-[#101727]"></i>
+                <i className="fa-brands fa-facebook-f text-[#101727]"></i>
               </div>
               <div className="px-2.5 py-2 w-fit rounded-full bg-[#ffffff] cursor-pointer">
-                <i class="fa-brands fa-x-twitter text-[#101727]"></i>
+                <i className="fa-brands fa-x-twitter text-[#101727]"></i>
               </div>
             </div>
           </div>

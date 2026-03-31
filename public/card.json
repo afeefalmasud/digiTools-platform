@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Notion AI Pro",
-    "description": "The ultimate AI-powered workspace for teams and individuals. Write, plan, and automate with advanced AI.",
+    "description": "The AI-powered workspace for teams and individuals. Write, plan, and automate with AI.",
     "price": 10,
     "period": "monthly",
     "tag": "popular",
@@ -21,7 +21,7 @@
     "name": "Midjourney Unlimited",
     "description": "Create stunning AI art and images with the most advanced image generation model available.",
     "price": 29,
-    "period": "monthly",
+    "period": "yearly",
     "tag": "best seller",
     "tagType": "best seller",
     "features": [
@@ -73,8 +73,8 @@
     "description": "The most intelligent web browser with built-in AI assistant and powerful productivity features.",
     "price": 15,
     "period": "monthly",
-    "tag": "",
-    "tagType": "",
+    "tag": "new",
+    "tagType": "new",
     "features": [
       "AI command bar",
       "Space organization",
@@ -124,8 +124,8 @@
     "description": "Industry-leading AI video generation tool for creators and filmmakers.",
     "price": 76,
     "period": "monthly",
-    "tag": "",
-    "tagType": "",
+    "tag": "popular",
+    "tagType": "popular",
     "features": [
       "Text to video",
       "Image to video",
