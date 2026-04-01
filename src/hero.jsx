@@ -19,7 +19,7 @@ export default function Hero(){
           </div>
         </div>
         <div>
-          <img className="hover:-translate-y-3 transition" src="./banner.png" alt="" />
+          <img className="hover:scale-105 transition" src="./banner.png" alt="" />
         </div>
       </div>
     </div>

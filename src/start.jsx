@@ -7,7 +7,7 @@ export default function Start(){
           <p className="text-[#627382]">Start using premium digital tools in minutes, not hours.</p>
         </div>
         <div className="flex flex-col md:flex-row gap-x-10 gap-y-10 md:gap-y-0 justify-center">
-          <div className="py-5 px-8 flex flex-col shadow-md bg-[#ffffff] rounded-lg border-2 border-[#F1F1F1]">
+          <div className="py-5 px-8 flex flex-col shadow-lg bg-[#ffffff] rounded-lg hover:border-t-3 hover:border-[#9514FA] hover:-translate-y-3 transition">
             <div className="flex justify-end mb-7">
               <div className="bg-linear-65 from-[#4F39F6] to-[#9514FA] px-4 py-3 w-fit rounded-full">
                 <p className="text-white font-bold text-[14px]">01</p>
@@ -22,7 +22,7 @@ export default function Start(){
             </div>
           </div>
           
-          <div className="py-5 px-8 flex flex-col shadow-md bg-[#ffffff] rounded-lg border-2 border-[#F1F1F1]">
+          <div className="py-5 px-8 flex flex-col shadow-lg bg-[#ffffff] rounded-lg hover:border-t-3 hover:border-[#9514FA] hover:-translate-y-3 transition">
             <div className="flex justify-end mb-7">
               <div className="bg-linear-65 from-[#4F39F6] to-[#9514FA] px-4 py-3 w-fit rounded-full">
                 <p className="text-white font-bold text-[14px]">02</p>
@@ -37,7 +37,7 @@ export default function Start(){
             </div>
           </div>
 
-          <div className="py-5 px-8 flex flex-col shadow-md bg-[#ffffff] rounded-lg border-2 border-[#F1F1F1]">
+          <div className="py-5 px-8 flex flex-col shadow-lg bg-[#ffffff] rounded-lg hover:border-t-3 hover:border-[#9514FA] hover:-translate-y-3 transition">
             <div className="flex justify-end mb-7">
               <div className="bg-linear-65 from-[#4F39F6] to-[#9514FA] px-4 py-3 w-fit rounded-full">
                 <p className="text-white font-bold text-[14px]">03</p>

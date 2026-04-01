@@ -7,7 +7,7 @@ export default function Pricing(){
           <p className="text-[#627382]">Choose the plan that fits your needs. Upgrade or downgrade anytime.</p>
         </div>
         <div className="flex flex-col lg:flex-row justify-center items-center gap-x-10 gap-y-10 md:gap-y-0">
-          <div className="py-5 px-8 flex flex-col shadow-md bg-[#F9FAFC] rounded-2xl border-2 border-[#F2F2F2] w-80 md:w-95">
+          <div className="py-5 px-8 flex flex-col shadow-md bg-[#F9FAFC] rounded-2xl border-2 border-[#F2F2F2] w-80 md:w-95 hover:-translate-y-3 transition">
             <h2 className="text-[#101727] font-bold text-[24px] mb-2">Starter</h2>
             <p className="text-[#627382] mb-6">Perfect for getting started</p>
             <h2 className="text-[#101727] font-bold text-[40px] mb-6">$0 <span className="text-[#627382] font-normal text-[16px]">/month</span></h2>
@@ -20,7 +20,7 @@ export default function Pricing(){
             <button className="btn bg-linear-65 from-[#4F39F6] to-[#9514FA] px-4 py-3.5 rounded-full border-none text-white font-semibold">Get Started Free</button>
           </div>
 
-          <div className="py-5 px-8 flex flex-col shadow-md bg-linear-65 from-[#4F39F6] to-[#9514FA] rounded-2xl w-80 md:w-95 relative">
+          <div className="py-5 px-8 flex flex-col shadow-md bg-linear-65 from-[#4F39F6] to-[#9514FA] rounded-2xl w-80 md:w-95 relative hover:-translate-y-3 transition">
             <div className="bg-[#FEF3C6] rounded-full px-3 py-1.5 w-fit absolute left-25 -top-4 md:left-35">
               <p className="text-[#BB4D00] font-medium text-[14px]">Most Popular</p>
             </div>
@@ -40,7 +40,7 @@ export default function Pricing(){
             </div>
           </div>
 
-          <div className="py-5 px-8 flex flex-col shadow-md bg-[#F9FAFC] rounded-2xl border-2 border-[#F2F2F2] w-80 md:w-95">
+          <div className="py-5 px-8 flex flex-col shadow-md bg-[#F9FAFC] rounded-2xl border-2 border-[#F2F2F2] w-80 md:w-95 hover:-translate-y-3 transition">
             <h2 className="text-[#101727] font-bold text-[24px] mb-2">Enterprise</h2>
             <p className="text-[#627382] mb-6">For teams and businesses</p>
             <h2 className="text-[#101727] font-bold text-[40px] mb-6">$99 <span className="text-[#627382] font-normal text-[16px]">/month</span></h2>

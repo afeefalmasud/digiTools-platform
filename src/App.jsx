@@ -24,7 +24,7 @@ function App() {
       <Navbar carts={carts}></Navbar>
       <Hero></Hero>
       <Info></Info>
-      <div id='product-section' className='scroll-mt-30'>
+      <div id='product-section' className='scroll-mt-30 pt-10 md:pt-0'>
         <div className="mt-30 mb-4 px-5 md:px-0">
           <div className="text-center mb-4">
             <h1 className="text-[#101727] font-extrabold text-[42px] md:text-[48px] mb-4">Premium Digital Tools</h1>
@@ -32,7 +32,7 @@ function App() {
           </div>
         </div>
       </div>
-      <div className="tabs tabs-box justify-center items-center bg-white">
+      <div className="tabs justify-center items-center bg-white">
         <input type="radio" name="my_tabs_1" className={`tab px-6 rounded-full transition-all ${
           activeTab === 'card'
           ? 'bg-linear-65 from-[#4F39F6] to-[#9514FA] text-white'
@@ -48,13 +48,13 @@ function App() {
       {activeTab === 'card' && <Product cardsPromise={cardsPromise} carts={carts} setCarts={setCarts}></Product>}
       {activeTab === 'cart' && <Cart carts={carts} setCarts={setCarts}></Cart>}
 
-      <div id='start-section'>
+      <div id='start-section' className='pt-20 md:pt-0'>
         <Start></Start>
       </div>
-      <div id='pricing-section'>
+      <div id='pricing-section' className='pt-20 md:pt-0'>
         <Pricing></Pricing>
       </div>
-      <div id='testimonial-section' className='scroll-mt-20'>
+      <div id='testimonial-section' className='scroll-mt-20 pt-20 md:pt-0' >
         <Testimonial></Testimonial>
       </div>
       <Footer></Footer>
