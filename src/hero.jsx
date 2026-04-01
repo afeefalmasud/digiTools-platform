@@ -1,7 +1,7 @@
 export default function Hero(){
   return(
     <div className="container mx-auto min-h-screen">
-      <div className="flex flex-col-reverse md:flex-row justify-between items-center py-21.25 px-5 md:px-0 gap-y-5 md:gap-y-0">
+      <div className="flex flex-col-reverse lg:flex-row justify-between items-center py-21.25 px-5 md:px-0 gap-y-5 lg:gap-y-0">
         <div className="px-5 md:px-0">
           <div className="flex items-center gap-2 bg-[#E1E7FF] px-4 py-2 rounded-full w-fit mb-4">
             <div className="bg-linear-65 from-[#4f39f6b0] to-[#9614faab] w-3 h-3 rounded-full"></div>

@@ -41,7 +41,7 @@ export default function Card({card,carts, setCarts}){
           <p className="text-3xl mb-4">{card.icon}</p>
         </div>
         <h2 className="text-[#101727] font-bold text-[24px] mb-4">{card.name}</h2>
-        <p className="text-[#627382] mb-4 w-70 md:w-90">{card.description}</p>
+        <p className="text-[#627382] mb-4 w-70 lg:w-90">{card.description}</p>
         <h2 className="text-[#101727] font-bold text-[24px] mb-4">$ {card.price}<span className="text-[#627382] font-normal text-[16px]">/{card.period}</span></h2>
         <ul>
           {card.features.map((feature,i) => 

@@ -2,8 +2,8 @@ export default function Footer(){
   return(
     <div className="bg-[#101727] px-5 md:px-0">
       <div className="container mx-auto">
-        <div className="text-[#ffffff] pt-30 pb-10 flex flex-col md:flex-row items-center  md:items-start justify-center md:justify-around space-y-8 md:space-y-0">
-          <div className="text-center md:text-start">
+        <div className="text-[#ffffff] pt-30 pb-10 flex flex-col lg:flex-row items-center  lg:items-start justify-center lg:justify-around space-y-8 lg:space-y-0">
+          <div className="text-center lg:text-start">
             <h1 className="font-extrabold text-[40px] mb-4">DigiTools</h1>
             <p className="text-[#ffffffcf]">Premium digital tools for creators, <br /> professionals, and businesses. Work smarter <br /> with our suite of powerful tools.</p>
           </div>
@@ -49,9 +49,9 @@ export default function Footer(){
             </div>
           </div>
         </div>
-        <div className="text-[#ffffffcf] flex flex-col md:flex-row justify-between pt-7.5 pb-10 border-t-2 border-[#646464b2] mx-15 space-y-8 md:space-y-0 items-center md:items-start">
-          <p className="text-center md:text-start">© 2026 Afeef Al Masud | Digitools. All rights reserved.</p>
-          <ul className="flex flex-col md:flex-row gap-4">
+        <div className="text-[#ffffffcf] flex flex-col lg:flex-row justify-between pt-7.5 pb-10 border-t-2 border-[#646464b2] mx-15 space-y-8 lg:space-y-0 items-center lg:items-start">
+          <p className="text-center lg:text-start">© 2026 Afeef Al Masud | Digitools. All rights reserved.</p>
+          <ul className="flex flex-col lg:flex-row gap-4">
             <li className="hover:text-[#9514FA]"><a href="">Privacy Policy</a></li>
             <li className="hover:text-[#9514FA]"><a href="">Terms of Service</a></li>
             <li className="hover:text-[#9514FA]"><a href="">Cookies</a></li>

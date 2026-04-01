@@ -12,7 +12,7 @@ export default function Cart({carts,setCarts}){
     toast.warning('Item removed from cart')
   }
   return(
-    <div className="container mx-auto min-h-screen pt-10 px-5 md:px-0">
+    <div className="container mx-auto min-h-screen pt-10 px-5 lg:px-0">
       <div className="rounded-2xl border-2 border-[#F2F2F2] shadow-md p-10 space-y-5">
         <h2 className="text-[#101727] font-bold text-[24px]">Your Cart</h2>
         {
@@ -20,8 +20,8 @@ export default function Cart({carts,setCarts}){
           <>
             {carts.map(item => 
               <div key={item.id}>
-                <div className="bg-[#F9FAFC] flex flex-col md:flex-row justify-center  md:justify-between p-5 shadow-md rounded-lg items-center">
-                  <div className="flex flex-col md:flex-row gap-8 items-center">
+                <div className="bg-[#F9FAFC] flex flex-col lg:flex-row justify-center  md:justify-between p-5 shadow-md rounded-lg items-center">
+                  <div className="flex flex-col lg:flex-row gap-8 items-center">
                     <div>
                       <p className="text-3xl">{item.icon}</p>
                     </div>

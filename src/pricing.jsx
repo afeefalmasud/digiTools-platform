@@ -6,7 +6,7 @@ export default function Pricing(){
           <h1 className="text-[#101727] font-extrabold text-[42px] md:text-[48px]  mb-4">Simple, Transparent Pricing</h1>
           <p className="text-[#627382]">Choose the plan that fits your needs. Upgrade or downgrade anytime.</p>
         </div>
-        <div className="flex flex-col lg:flex-row justify-center items-center gap-x-10 gap-y-10 md:gap-y-0">
+        <div className="flex flex-col lg:flex-row justify-center items-center gap-x-10 gap-y-10 lg:gap-y-0">
           <div className="py-5 px-8 flex flex-col shadow-md bg-[#F9FAFC] rounded-2xl border-2 border-[#F2F2F2] w-80 md:w-95 hover:-translate-y-3 transition">
             <h2 className="text-[#101727] font-bold text-[24px] mb-2">Starter</h2>
             <p className="text-[#627382] mb-6">Perfect for getting started</p>

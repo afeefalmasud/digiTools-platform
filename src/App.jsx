@@ -25,7 +25,7 @@ function App() {
       <Hero></Hero>
       <Info></Info>
       <div id='product-section' className='scroll-mt-30 pt-10 md:pt-0'>
-        <div className="mt-30 mb-4 px-5 md:px-0">
+        <div className="mt-30 mb-4 px-5 lg:px-0">
           <div className="text-center mb-4">
             <h1 className="text-[#101727] font-extrabold text-[42px] md:text-[48px] mb-4">Premium Digital Tools</h1>
             <p className="text-[#627382]">Choose from our curated collection of premium digital products designed <br />to boost your productivity and creativity.</p>
